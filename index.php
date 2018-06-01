@@ -25,9 +25,6 @@
 						<a href="">О себе</a>
 					</li>
 					<li>
-						<a href="">Услуги</a>
-					</li>
-					<li>
 						<a href="">Обратная связь</a>
 					</li>
 				</ul>
@@ -37,24 +34,89 @@
 			</div>
 		</div>
 
+		<div class="official__name">
+			<span>Мерчендайзинговый магазин</span>
+			
+		</div>
+
 		<div class="info">
-			<div class="info__name">
-				<div class="dip__name">
-					<!--<span>Дипломная работа</span>-->
+			<div class="half">
+				<div class="var">
+					<span class="var__name">Рюкзак</span>
+
+					<div class="image__block">
+						<div class="image image1"></div>
+					</div>
+
+					<input type="submit" value="Заказать" class="var__button">
 				</div>
-				<div class="dip__surname">
-					<!--<span>Студента: Цоколова М.Ю. группы: 473к ГБПОУ "СПбПК" </span>-->
+				<div class="var">
+					<span class="var__name">Кошелек</span>
+
+					<div class="image__block">
+						<div class="image image2"></div>
+					</div>
+
+					<input type="submit" value="Заказать" class="var__button">
+				</div>
+				<div class="var">
+					<span class="var__name">Чехол</span>
+
+					<div class="image__block">
+						<div class="image image3"></div>
+					</div>
+
+					<input type="submit" value="Заказать" class="var__button">
+				</div>
+				<div class="var">
+					<span class="var__name">Футболка</span>
+
+					<div class=" image__block">
+						<div class="image image4"></div>
+					</div>
+
+					<input type="submit" value="Заказать" class="var__button">
 				</div>
 			</div>
-			<div class="info__photo">
-				<!--<div>
-					
-				</div>-->
-			</div>
-			<div class="info__GH">
-				<div>
-					<a href=""><img src="../image/github.svg" alt="" width="50px" height="50px"></a>
+
+			<div class="half">
+				<div class="var">
+					<span class="var__name">Кольца</span>
+
+					<div class="image__block">
+						<div class="image image5"></div>
+					</div>
+
+					<input type="submit" value="Заказать" class="var__button">
 				</div>
+				<div class="var">
+					<span class="var__name">Стикеры</span>
+
+					<div class="image__block">
+						<div class="image image6"></div>
+					</div>
+
+					<input type="submit" value="Заказать" class="var__button">
+				</div>
+				<div class="var">
+					<span class="var__name">Брелки</span>
+
+					<div class="image__block">
+						<div class="image image7"></div>
+					</div>
+
+					<input type="submit" value="Заказать" class="var__button">
+				</div>
+				<div class="var">
+					<span class="var__name">Чашки</span>
+
+					<div class="image__block">
+						<div class="image image8"></div>
+					</div>
+
+					<input type="submit" value="Заказать" class="var__button">
+				</div>
+				
 			</div>
 		</div>
 	</header>
@@ -73,12 +135,6 @@
 
 	</div>
 
-
-	<div class="services">
-
-		
-	</div>
-
 	<div class="feedBack">
 
 		<div fb__main__wrapper>
@@ -88,7 +144,7 @@
 
 
 		<div class="half">
-		<form action="send.php" method="post" class="FrmFeedback">
+		<form action="send.php" method="POST" class="FrmFeedback">
 			<div class="fb__wrapper">
 			<p><b>Ваше ФИО</b></p>
 			<input type="text" placeholder="Александр Васильевич Пупкин" name="usrname"
